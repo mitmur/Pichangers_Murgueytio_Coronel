@@ -1,6 +1,6 @@
 # Pichangers_Murgueytio_Coronel
 
-## Programación Dispositivos Móviles
+### Programación Dispositivos Móviles
 
 ###Hernan Quintana
 
