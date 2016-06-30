@@ -2,7 +2,7 @@
 
 ### Programación Dispositivos Móviles
 
-###Hernan Quintana
+###Profesor: Hernan Quintana
 
 ###Integrantes
 
