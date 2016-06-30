@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pichangers</string>
+    <string name="login_prompt">Login</string>
+    <string name="user_prompt">Ingrese Usuario</string>
+    <string name="password_prompt">Ingrese Contraseña</string>
+    <string name="login_button">Inscribirse</string>
+    <string name="button_add">Agregar</string>
+    <string name="grid_placeholder">placeholder</string>
+    <string name="add_player">Agregar Jugador</string>
+    <string name="show_info">Mostrar Información</string>
+    <string name="share">Compartir</string>
+    <string name="wins_count">Partidos Ganados: %1$d</string>
+    <string name="losses_count">Partidos Perdidos: %1$d</string>
+    <string name="notify_add_success">Alumno %1$s agregado</string>
+</resources>

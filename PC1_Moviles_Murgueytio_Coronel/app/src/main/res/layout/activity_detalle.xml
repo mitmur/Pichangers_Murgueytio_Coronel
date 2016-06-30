@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    tools:context=".infoequipo.InfoEquipoActivity"
+    android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/balon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:src="@drawable/ball"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tviNombreEquipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4pt"
+                android:layout_toEndOf="@id/balon"
+                android:layout_alignBottom="@id/balon"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgEquipo"
+                android:scaleType="centerInside"
+                android:layout_below="@id/tviNombreEquipo" />
+
+            <TextView
+                android:id="@+id/tviWins"
+                android:layout_below="@id/imgEquipo"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tviLosses"
+                android:layout_below="@id/tviWins"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+</FrameLayout>

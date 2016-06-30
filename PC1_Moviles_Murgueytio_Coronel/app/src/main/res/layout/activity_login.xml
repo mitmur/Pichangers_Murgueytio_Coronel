@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity"
+    android:background="@drawable/hola"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hola"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0000000"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Ingrese Usuario"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/accent_material_light"
+            android:textColorHint="#F2F2F2"
+            android:id="@+id/txtUsuario"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/accent_material_light"
+            android:textColorHint="#F2F2F2"
+            android:id="@+id/txtContraseña"
+            android:hint="Ingrese contraseña"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSCRIBIRSE"
+            android:id="@+id/txtbutton"
+            android:onClick="onLoginClicked"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#56BE9A"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txteditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pichangers"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen_equipo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/iviAdd"
+        android:onClick="detalleImagen"
+        android:layout_alignEnd="@+id/iviText"
+        android:src="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/iviText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="44dp"
+        android:textSize="50sp"
+        android:text="Nombre Equipo"
+        android:layout_above="@+id/iviAdd"
+        android:layout_alignLeft="@+id/iviAdd"
+        android:layout_alignStart="@+id/iviAdd" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/iviAdd"
+        android:src="@drawable/plus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="agregarIntegrante"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/iviUsers"
+        android:src="@drawable/users"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/iviShare"
+        android:src="@drawable/share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
