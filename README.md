@@ -1,7 +1,10 @@
 # Pichangers_Murgueytio_Coronel
-# Programación Dispositivos Móviles
 
-##Integrantes
+## Programación Dispositivos Móviles
+
+###Hernan Quintana
+
+###Integrantes
 
   Mitchelli Murgueytio
   Marcelo Coronel
